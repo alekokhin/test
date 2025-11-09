@@ -8,6 +8,7 @@ function App() {
   useEffect(() => {
     console.log("hello world");
   }, [num1]);
+  console.log(num2)
   return (
     <div className="App">
       <TestComponent />
